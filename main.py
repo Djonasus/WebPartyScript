@@ -10,4 +10,5 @@ COMP = []
 
 def loadstring(string):
     words = lexer.Lex(string)
-    parser.Parse(words)
+    print(words)
+    #parser.Parse(words)
