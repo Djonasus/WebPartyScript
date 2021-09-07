@@ -2,8 +2,12 @@
 
 
 #include libs
+import lexer
+import parser
+
 
 COMP = []
 
 def loadstring(string):
-    
+    words = lexer.Lex(string)
+    parser.Parse(words)
