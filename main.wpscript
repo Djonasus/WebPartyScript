@@ -1,0 +1,16 @@
+# Commentary
+
+print("simple text")
+
+int a = 0
+string b = "1"
+
+fun hello() {
+    print("Hello")
+}
+
+class RedButton : Button{
+    fun _init(text) {
+        this.caption = text
+    }
+}
