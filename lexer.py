@@ -14,3 +14,10 @@ def Lex(line):
             words.append(line[lastln:l+1])
     words = [x for x in words if x]
     return words
+
+def Parse(words):
+    for w in range(len(words)):
+        if words[w][0] == "#":
+             return {"head" : "commentary"}
+        else:
+            return {"head" : "other"}

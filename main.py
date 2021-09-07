@@ -3,12 +3,13 @@
 
 #include libs
 import lexer
-import parser
 
 
 COMP = []
 
 def loadstring(string):
     words = lexer.Lex(string)
-    print(words)
-    #parser.Parse(words)
+    #print(words)
+    print(lexer.Parse(words))
+
+loadstring("#print('hello')")
