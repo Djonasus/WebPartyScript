@@ -1,9 +1,12 @@
 # Commentary
+import Tools
 
 print("simple text")
 
-int a = 0
-string b = "1"
+a = 0
+b = "1"
+
+btn = Button("hello").draw()
 
 fun hello() {
     print("Hello")
@@ -13,4 +16,8 @@ class RedButton : Button{
     fun _init(text) {
         this.caption = text
     }
+}
+
+container Tools.btContainer {
+    paragraph("piska").draw()
 }

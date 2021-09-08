@@ -16,8 +16,9 @@ def Lex(line):
     return words
 
 def Parse(words):
+    result = {}
     for w in range(len(words)):
         if words[w][0] == "#":
-             return {"head" : "commentary"}
+             return {"line" : "commentary"}
         else:
-            return {"head" : "other"}
+            
