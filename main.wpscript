@@ -1,6 +1,9 @@
 # Commentary
 import Tools
 
+Page.title = "Test"
+Page.side = "client" #or backend
+
 print("simple text")
 
 a = 0
