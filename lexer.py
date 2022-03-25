@@ -1,5 +1,5 @@
-spec_s = ["="," ",",","[","]","(",")","{","}"]
-spec_words = ["container","for","while","and","or","if","else","elseif"]
+spec_s = ["="," ",",","[","]","(",")","{","}",",",".","\"","\'","/",":",";","+","-","#"]
+spec_words = ["div","for","while","and","or","if","else","elseif","style","data"]
 
 
 def Lex(line):
@@ -19,10 +19,11 @@ def Lex(line):
     words = [x for x in words if x]
     return words
 
-def Parse(words):
+"""def Parse(words):
 
     result = {}
     for w in range(len(words)):
         if words[w][0] == "#":
             break
-        elif :
+        else:
+    """        

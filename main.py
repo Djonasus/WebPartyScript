@@ -1,4 +1,4 @@
-# WebPartyScript 2021 By Stas Vasilenko v0.1 INDEV
+# WebPartyScript 2021-2022 By Stas Vasilenko v0.1 INDEV
 
 
 #include libs
@@ -9,7 +9,7 @@ COMP = []
 
 def loadstring(string):
     words = lexer.Lex(string)
-    #print(words)
-    print(lexer.Parse(words))
+    print(words)
+    #print(lexer.Parse(words))
 
-loadstring("#print('hello')")
+loadstring("#print(\"hello\")")
