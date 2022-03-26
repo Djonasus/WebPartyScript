@@ -1,11 +1,17 @@
 connect "bootstrap.min.js"
-include sample_script_filename
+include sample_wpl_script_filename
 
 data
   name = "index"
   title = "Main Page"
 end
 
+style : linkus
+  color = "white"
+  color-decoration = "none"
+
+end
+
 h1("Big")
-p("Hello World") : named
-a("UwU",toUrl("sample_script_filename")) : linkus
+p("Hello World") : named()
+a("UwU",toUrl("sample_wpl_script_filename")) : linkus

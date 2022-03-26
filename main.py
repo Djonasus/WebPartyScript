@@ -10,6 +10,7 @@ COMP = []
 def loadstring(string):
     words = lexer.Lex(string)
     print(words)
-    #print(lexer.Parse(words))
+    print(lexer.Parse(words))
 
-loadstring("#print(\"hello\")")
+#loadstring("de dew q")
+loadstring("style")
