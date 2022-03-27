@@ -9,13 +9,11 @@ end
 style : (linkus)
   color = "white"
   color-decoration = "none"
-
 end
 
 h1("Big")
 p("Hello World") : (named)
 a("UwU",toUrl("sample_wpl_script_filename")) : linkus
-
 
 div : head
   class = div_container
